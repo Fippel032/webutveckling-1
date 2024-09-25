@@ -18,9 +18,25 @@ h3 {
     text-align: center;
     font-weight: bold;
 }
+
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}    
+
 .nisse {
     display: flex;
     justify-content: center;
+    margin-bottom:20px ;
+}
+
+a {
+    margin-left: 2px;
+    margin-right: 2px;
+    color: red
 }
 
 .container {
@@ -42,6 +58,16 @@ h2 {
     color: red;
 
 text-align: center;
+
+}
+
+.lastupdate
+{   
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    margin-top:12px ;
 
 }
 
