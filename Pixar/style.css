@@ -1,0 +1,47 @@
+/* styles.css */
+h1 {
+    color: black;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    margin-block: 0
+}
+ 
+h3 {
+    color: black;
+
+    /* text-align: right; */
+ 
+}
+.klocka {
+    text-align: center;
+    font-weight: bold;
+}
+.nisse {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-left: 25%;
+    margin-right: 25%;
+    /* display: grid; */
+    /* align-self: center; */
+    width: 50%;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.container .right-align {
+    text-align: right;
+}
+
+
+h2 {
+    color: red;
+
+text-align: center;
+
+}
+
