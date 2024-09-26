@@ -1,0 +1,40 @@
+.Länk{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;    
+
+}
+
+.första hemsidan{
+text-align: left;
+margin-top: 50px;
+width: 400px;
+}
+
+.Dns{
+text-align: right;
+margin-top: 50px;
+width: 400px;
+margin-left: 700px; 
+}
+
+.URL{
+margin-top: 50px;
+width: 400px;
+}
+
+.HTTP{
+margin-top: 50px;
+width: 400px;  
+text-align: right;
+margin-left: 700px;  
+}
+
+.www{
+margin:top 10px; 
+margin-top: 1px;    
+}
+
+.Tim{
+margin:top 10px;    
+}
