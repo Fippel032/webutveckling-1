@@ -1,41 +1,51 @@
-.Länk{
+
+.Länk {
     font-size: 20px;
     text-align: center;
-    margin-top: 10px;    
+    margin-top: 10px;
     color: red;
+
 }
 
-.förstahemsidan{
-text-align: left;
-margin-top: 50px;
-width: 400px;
+.förstahemsidan {
+    text-align: left;
+    margin-top: 50px;
+
 }
 
-.Dns{
-text-align: right;
-margin-top: 50px;
-width: 400px;
-margin-left: 700px; 
+.Dns {
+    text-align: right;
+    margin-top: 50px;
+
+
 }
 
-.URL{
-margin-top: 50px;
-width: 400px;
+.URL {
+    margin-top: 50px;
+
 }
 
-.HTTP{
-margin-top: 50px;
-width: 400px;  
-text-align: right;
-margin-left: 700px;  
+.HTTP {
+    margin-top: 50px;
+
+
+
 }
 
-.www{
-margin:top 10px; 
-margin-top: 1px;
-width:400px;    
+.www {
+    margin: top 10px;
+    margin-top: 1px;
+
 }
 
-.Tim{
-margin:top 10px;    
+.Tim {
+    margin: top 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width:500px;
+    text-align:center;
 }

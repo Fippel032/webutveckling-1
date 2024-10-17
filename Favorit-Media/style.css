@@ -1,0 +1,20 @@
+h1{
+    text-align: center; 
+
+}
+
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-items: center;
+
+}
+
+.grid button {
+    width: 20%;
+}
+
