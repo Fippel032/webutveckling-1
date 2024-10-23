@@ -9,9 +9,8 @@ background-color: aliceblue;
 
 
 .byanton{
-    text-align: center;
-    width:1000px;
-    height: auto;
-
-    
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
 }
