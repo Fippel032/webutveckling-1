@@ -30,3 +30,10 @@ img {
     max-width: 300px;
     height: auto;
 }
+
+.byanton animated-text{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}

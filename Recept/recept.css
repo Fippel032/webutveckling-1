@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 10px;  
+    text-align: center;
+    
+}
+
+.title {
+    text-align: center;
+}
+
+.Img    {
+    max-width: 50%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 10px;  
+    text-align: center;
+}
+
