@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Navbar</title>
@@ -28,11 +27,36 @@
         }
         .menu {
             display: flex;
+            align-items: center;
         }
         .menu-icon {
             display: none;
             font-size: 24px;
             cursor: pointer;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #575757;
         }
         @media (max-width: 768px) {
             .menu {
@@ -76,17 +100,21 @@
             <a href="Favorit-Media/">Media</a>
             <a href="Pixar/index.html">Pixar</a>
             <a href="WWW-historia/index.html">WWW-historia</a>
-            <a href="Recept/recept.Html">Recept</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Recept</a>
+                <div class="dropdown-content">
+                    <a href="Recept/kladdkaka.html">Kladdkaka</a>
+                    <a href="Recept/bullar.html">Bullar</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="byanton animated-text">
         Webbutveckling 1
-
-
     </div>
     <div class="webb">
-   <img src="webb.png" alt="">
-   </div>
+        <img src="webb.png" alt="">
+    </div>
     <script>
         function toggleMenu() {
             const navbar = document.querySelector('.navbar');
