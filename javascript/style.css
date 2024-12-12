@@ -1,0 +1,18 @@
+.textruta {
+  display: grid;  
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  
+}
+
+
+h1 { color: white;}
+
+p { color:   white;}
+
+.id {
+  color: white;
+}
+
+
+
