@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    /* Changed background color */
+    display: flex;
+    flex-direction: column;
+    /* Ensure elements are stacked vertically */
+    align-items: center;
+    /* Center elements horizontally */
+}
+
+.rubrik {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    /* Add some margin at the top */
+}
+
+.card {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    /* Add vertical margin between cards */
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+    padding: 2px;
+    width: 100px;
+    /* Adjusted width */
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: left;
+    border-radius: 10px;
+}
+
+
+.items {
+    text-align: center;
+
+}
