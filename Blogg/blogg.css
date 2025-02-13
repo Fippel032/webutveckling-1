@@ -67,3 +67,13 @@ button:hover {
     text-align: center;
 
 }
+
+@media only screen and (min-width: 2556px) {
+    body {
+         width: 20%;
+    }
+
+   img {
+        width: 20%;
+    }
+}
