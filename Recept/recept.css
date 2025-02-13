@@ -48,8 +48,27 @@ img {
     height: auto;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+h1 {
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+}
 
+h2 {
+    color: red;
+    text-align: center;
+}
 
 .grid {
     display: grid;
@@ -94,6 +113,14 @@ border: 1px solid rgba(0, 0, 0, 0.8);
     max-width: 800px;
     margin: auto;
     overflow: hidden;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
  
@@ -123,6 +150,34 @@ border: 1px solid rgba(0, 0, 0, 0.8);
     margin: auto;
     overflow: hidden;
   }
+
+@media only screen and (min-width: 2560px) {
+    body {
+        width: 80%; 
+    }
+
+    img {
+        width: 80%; 
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .card {
+        width: 90%; /* Adjust card width for smaller screens */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.2em; /* Adjust font size for smaller screens */
+    }
+}
 
 
 
