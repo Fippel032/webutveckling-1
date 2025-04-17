@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+
+
+ 
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.container img {
+    margin-right: 10px;
+}
+
+.röd {
+    color : red
+}
+
+.röd:hover {
+    color: darkred;
+    font-weight: bold;
+}
+
+hr {
+    height: 3px;
+    color: darkred;
+    background-color: darkred; 
+    border: none;
+ }
+    
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    
+    
+    
+
+    
+}
+.container3 {
+    display: flex;
+    gap: 2em;
+    color: darkred;
+    
+   
+}
+
+
+a {
+    text-decoration: none;
+    color: black
+   
+}
+
+a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+
+.drivmedelspriser {
+    text-align: center;
+    
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+
+.img1 {
+    width: 10%;
+    height: auto;
+}
+ 
+
+
+
+
+
+
+
+
+
