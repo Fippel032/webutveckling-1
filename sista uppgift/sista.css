@@ -95,6 +95,28 @@ a:hover {
  
 
 
+.grid-container {
+    display: grid;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 20px;
+
+    grid-template-columns: auto auto auto auto;
+    height: 400px;
+
+    justify-items: center;
+}
+    
+.img1 {
+    width: 20%; 
+    height: auto;
+}
+
+.grid-container {
+    height: 400px;
+    justify-items: center;
+}
+
 
 
 
