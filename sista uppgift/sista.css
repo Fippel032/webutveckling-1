@@ -6,15 +6,6 @@ body {
     width: 80%;
 }
 
-
- 
-
-
-
-
-
-
-
 .container {
     display: flex;
     align-items: center;
@@ -49,23 +40,17 @@ hr {
     align-items: center;
     gap: 15px; 
     color: black;
-    
-    
-    
-
-    
 }
+
 .container3 {
     display: flex;
     flex-direction: row; 
     gap: 20px; 
 }
 
-
 a {
     text-decoration: none;
     color: black
-   
 }
 
 a:hover {
@@ -73,10 +58,8 @@ a:hover {
     text-decoration: none;
 }
 
-
 .drivmedelspriser {
     text-align: center;
-    
     width: 50%;
     height: auto;
     margin: 0 auto;
@@ -91,22 +74,18 @@ a:hover {
     width: 10%;
     height: auto;
 }
- 
-
 
 .grid-container {
     display: grid;
     align-items: center;
     justify-content: space-between; 
     margin-top: 20px;
-
     grid-template-columns: auto auto auto auto;
     height: 400px;
-
     justify-items: center;
     justify-content: flex-end; /* Align grid to the right */
 }
-    
+
 .img1 {
     width: 20%; 
     height: auto;
@@ -118,7 +97,6 @@ a:hover {
     justify-content: flex-end; /* Align grid to the right */
 }
 
-
 .grid2 {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -129,8 +107,6 @@ a:hover {
     justify-items: center;
     justify-content: flex-end; /* Align grid to the right */
 }
-
-
 
 .card { 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -156,8 +132,7 @@ a:hover {
         width: 100%;
         height: auto;
     }
-  
-  }
+}
 
 .card:hover, .card1:hover {
     transform: scale(1.05); /* Slightly enlarge the card on hover */
@@ -177,28 +152,20 @@ a:hover {
     gap: 20px; 
     justify-content: flex-end; 
     margin-left: auto; 
-    
-   
 }
-
-
-
 
 .Stihl {
     display: grid;
     grid-template-columns: 35% 65%;
     text-align: center;
-    
 }
+
 .Stihl {
     display: grid;
     grid-template-columns: auto auto
-    
 }
 
 .card1 { 
-    
-
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 5px;
@@ -217,33 +184,23 @@ a:hover {
     text-decoration: none;
     margin-bottom: 20px; 
     border: 1px solid black; 
-    
-    
-    
-    
+
     img {
         width: 100%;
         height: auto;
     }
-  
-  }
+}
 
-  .pris {
+.pris {
     display: flex;
     text-align: end;
-  }
+}
 
-  .h3 {
+.h3 {
     text-decoration: none;
-    
-  }
+}
 
-
-
-
-  .card2 { 
-    
-
+.card2 { 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 5px;
@@ -262,21 +219,14 @@ a:hover {
     text-decoration: none;
     margin-bottom: 20px; 
     border: 1px solid black; 
-    
-    
-    
-    
+
     img {
         width: 50%;
         height: auto;
-        
     }
 }
 
-
 .card3 { 
-    
-
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 5px;
@@ -295,17 +245,12 @@ a:hover {
     text-decoration: none;
     margin-bottom: 20px; 
     border: 1px solid black; 
-    
-    
-    
-    
+
     img {
         width: 50%;
         height: auto;
-        
     }
 }
-
 
 .grid3 {
     display: grid;
@@ -319,18 +264,26 @@ a:hover {
     gap: 20px; 
     justify-content: flex-end; 
     margin-left: auto; 
-    
-   
 }
 
-@media screen and (device-width: 1170px) and (device-height: 2532px) {
+@media screen and (max-width: 768px) {
     body {
-        height: 75%;
+        width: 95%; /* Reduce the width for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        gap: 10px; /* Reduce spacing between items */
+    }
+
+    .grid-container, .grid2, .grid3 {
+        grid-template-columns: auto; /* Single column layout for grids */
+    }
+
+    .card, .card1, .card2, .card3 {
+        width: 100%; /* Make cards take full width */
+        max-width: none; /* Remove max-width restriction */
     }
 }
 
-@media screen and (device-width: 1170px) and (device-height: 2532px) {
-    body {
-        height: calc(100% + 1.7%);
-    }
-}
