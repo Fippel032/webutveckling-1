@@ -322,3 +322,15 @@ a:hover {
     
    
 }
+
+@media screen and (device-width: 1170px) and (device-height: 2532px) {
+    body {
+        height: 75%;
+    }
+}
+
+@media screen and (device-width: 1170px) and (device-height: 2532px) {
+    body {
+        height: calc(100% + 1.7%);
+    }
+}
