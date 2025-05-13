@@ -1,3 +1,4 @@
+
 body {
     background-color: white;
     font-family: Arial, sans-serif;
@@ -10,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    gap: 20px; /* Adds spacing between items in the container */
+    gap: 20px; 
 }
 
 .container img {
@@ -31,15 +32,17 @@ hr {
     color: darkred;
     background-color: darkred; 
     border: none;
+    max-width: 100%;
  }
     
 
 .container2 {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
-    align-items: center;
-    gap: 15px; 
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto ;
+    
+    gap: auto; 
     color: black;
+font-size: 80%;
 }
 
 .container3 {
@@ -286,4 +289,10 @@ a:hover {
         max-width: none; /* Remove max-width restriction */
     }
 }
+
+
+
+
+
+
 
