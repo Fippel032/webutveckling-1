@@ -129,7 +129,7 @@ a:hover {
     text-align: center ;
     margin-bottom: 20px; 
     border: 1px solid black; 
-    font-family: Helvetica, sans-serif; /* Change the font style to Helvetica */
+    font-family: Helvetica, sans-serif; 
 
     img {
         width: 100%;
